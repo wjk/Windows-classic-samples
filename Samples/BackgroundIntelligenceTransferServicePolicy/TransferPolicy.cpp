@@ -88,14 +88,14 @@ int _tmain()
 			DWORD job_transferpolicy = actual_propval.Dword;
 			wprintf(L"get TransferPolicy Property returned %#x\n", job_transferpolicy);
 		}
-done:
+
+	cancel:
+		pBackgroundCopyJob->Cancel();
+		pBackgroundCopyJob->Release();
+
+	done:
 		CoUninitialize();
 	}
 	return 1;
-
-cancel:
-	pBackgroundCopyJob->Cancel();
-	pBackgroundCopyJob->Release();
-	goto done;
 }
 
