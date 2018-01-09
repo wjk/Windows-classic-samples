@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 11
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TRANSFERPOLICY", "TRANSFERPOLICY.vcxproj", "{669A975F-4443-4DAE-88C3-AD3758B0BE60}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TransferPolicy", "TransferPolicy.vcxproj", "{669A975F-4443-4DAE-88C3-AD3758B0BE60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
