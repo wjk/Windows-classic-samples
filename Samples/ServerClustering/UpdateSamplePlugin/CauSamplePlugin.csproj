@@ -35,9 +35,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
     <Reference Include="System.Management.Automation" />
-    <Reference Include="ClusterAwareUpdating">
-      <HintPath>$(PUBLIC_ROOT)\internal\base\ref\clusterawareupdating.metadata_dll</HintPath>
-    </Reference>
+    <Reference Include="ClusterAwareUpdating" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
